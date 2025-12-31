@@ -1,91 +1,76 @@
 export const siteConfig = {
   name: "Hendrik Görner",
-  title: "Verkehrsingenieur | Entwickler | Tech-Enthusiast",
-  description: "Portfolio website of Hendrik Görner",
+  title: "Verkehrsingenieur | Geoinformatik | Software & Automation",
+  description:
+    "Persönliche Portfolio-Website von Hendrik Görner – Verkehrsingenieur mit Fokus auf Verkehrsdatenerhebung, Geodatenanalyse und Softwareentwicklung.",
   accentColor: "#1d4ed8",
+
   social: {
     email: "hendrikgoerner@gmx.de",
-    linkedin: "gghjghg",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    linkedin: "https://www.linkedin.com/in/hendrik-goerner", // ggf. anpassen
+    github: "https://github.com/hg-labatory",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Ich bin Verkehrsingenieur mit Schwerpunkt auf der Erhebung, Analyse und Visualisierung von Verkehrsdaten. Besonders interessieren mich Geoinformatik, OpenStreetMap, automatisierte Datenpipelines und die Verbindung von Ingenieurwesen und Softwareentwicklung. Neben meiner beruflichen Tätigkeit arbeite ich regelmäßig an eigenen Programmier-, Mikrocontroller- und Analyseprojekten.",
+
+  skills: [
+    "Python",
+    "Geoinformatik (QGIS, OSM)",
+    "Verkehrsdatenerhebung & -analyse",
+    "OpenStreetMap / Overpass API",
+    "Datenvisualisierung",
+    "Git & GitHub",
+    "Automatisierung & Scripting",
+    "Grundlagen Webentwicklung",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Geo Intelligence Pipeline",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Automatisierte Pipeline zur Abfrage, Verarbeitung und Analyse von OpenStreetMap-Daten für städtische Verkehrsnetze. Fokus auf Straßenkategorien, Fuß- und Radverkehr sowie reproduzierbare Analysen.",
+      link: "https://github.com/hg-labatory",
+      skills: ["Python", "OSM", "Overpass API", "Geodatenanalyse"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Persönliche Portfolio-Website",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Eigene Portfolio-Website auf Basis von Astro und GitHub Pages zur Darstellung von Projekten, technischem Know-how und beruflichem Werdegang.",
+      link: "https://hg-labatory.github.io/hendrik_goerner.github.io/",
+      skills: ["Astro", "GitHub Pages", "Webentwicklung"],
     },
     {
-      name: "ExtensionKit",
+      name: "Mikrocontroller- & Sensorprojekte",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Verschiedene Projekte mit ESP32 und Raspberry Pi, u. a. Temperaturmessung, OLED-Displays, MQTT-Datenübertragung und Visualisierung.",
+      link: "https://github.com/hg-labatory",
+      skills: ["ESP32", "Python", "MQTT", "IoT"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Ingenieur- / Forschungsumfeld",
+      title: "Verkehrsingenieur",
+      dateRange: "—",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Erhebung und Auswertung von Verkehrsdaten im urbanen Raum",
+        "Analyse von Verkehrsnetzen unter Nutzung von Geodaten",
+        "Aufbereitung und Visualisierung komplexer Datensätze",
+        "Technische Dokumentation und Ergebnisdarstellung",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Hochschule / Universität",
+      degree: "Bachelor / Master im Verkehrsingenieurwesen",
+      dateRange: "—",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Schwerpunkt Verkehrsplanung und Verkehrsdatenerhebung",
+        "Arbeiten mit Geodaten und quantitativen Analyseverfahren",
       ],
     },
   ],
