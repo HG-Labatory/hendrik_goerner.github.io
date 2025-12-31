@@ -4,7 +4,7 @@ export const siteConfig = {
   description: "Portfolio website of Hendrik Görner",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
+    email: "hendrikgoerner@gmx.de",
     linkedin: "https://linkedin.com/in/yourprofile",
     twitter: "https://x.com/rfitzio",
     github: "https://github.com/RyanFitzgerald",
