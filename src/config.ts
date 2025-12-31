@@ -30,7 +30,7 @@ export const siteConfig = {
       name: "Geo Intelligence Pipeline",
       description:
         "Automatisierte Pipeline zur Abfrage, Verarbeitung und Analyse von OpenStreetMap-Daten für städtische Verkehrsnetze. Fokus auf Straßenkategorien, Fuß- und Radverkehr sowie reproduzierbare Analysen.",
-      link: "https://github.com/hg-labatory",
+      link: "https://github.com/HG-Labatory/vicumpy",
       skills: ["Python", "OSM", "Overpass API", "Geodatenanalyse"],
     },
     {
