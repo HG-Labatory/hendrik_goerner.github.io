@@ -53,15 +53,12 @@ export const siteConfig = {
       title: "Wissenschaftlicher Mitarbeiter",
       dateRange: "01/2020 - 12/2024",
       bullets: [
-          "Planung, Durchführung und Auswertung videobasierter Verkehrserhebungen (Fußverkehr & MIV)",
+          "Planung, Durchführung und Auswertung videobasierter Verkehrserhebungen",
           "Entwicklung und Implementierung von Algorithmen zur Ermittlung objektiver Verkehrskenngrößen",
           "Statistische Analyse, Clusteranalysen und Ableitung belastbarer verkehrlicher Erkenntnisse",
           "Projektleitung im Forschungsprogramm Stadtverkehr mit Fokus auf Fußverkehrsaufkommen",
-          "Ableitung von Fußverkehrsaufkommen aus Kurzzeitzählungen und Umfelddaten",
-          "Entwicklung von Bewertungsverfahren für Fußverkehrsstrecken",
-          "Konzeption und Entwicklung von Softwaretools (u. a. OpenTrafficCam) zur Trajektorienanalyse",
+          "Konzeption und Entwicklung von Softwaretools zur Trajektorienanalyse",
           "Anwendung KI-basierter Detektionsverfahren in der Verkehrsdatenerhebung",
-          "Fachliche Betreuung studentischer Hilfskräfte sowie Betreuung von Studien- und Abschlussarbeiten",
           "Lehrtätigkeit in der Straßenverkehrstechnik (HBS-Qualitätsstufen, LISA+, Richtlinienanwendung)",
       ],
     },
@@ -69,13 +66,15 @@ export const siteConfig = {
 
   education: [
     {
-      school: "Technische Universität Dresden",
-      degree: "Dipl.-Ing im Verkehrsingenieurwesen",
+      school: "Verkehrsingenieurwesen mit Schwerpunkt Verkehrsplanung und Verkehrstechnik",
+      degree: "Technische Universität Dresden",
       dateRange: "10/2013 - 10/2020",
       achievements: [
-        "Schwerpunkt Straßenverkehrstechnik und Verkehrsdatenerhebung",
-        "Arbeiten mit Geodaten und quantitativen Analyseverfahren",
+        
       ],
-    },
+    },{school: "Kaufmann für Speditions- und Logistikdienstleistung",
+      degree: "DB Schenker AG in Chemnitz Lichtenau",
+      dateRange: "08/2010 - 08/2013",
+      achievements:[] }
   ],
 };
