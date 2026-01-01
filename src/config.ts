@@ -12,15 +12,13 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "Ich bin Verkehrsingenieur mit Schwerpunkt auf der Erhebung, Analyse und Visualisierung von Verkehrsdaten. Besonders interessieren mich Geoinformatik, OpenStreetMap, automatisierte Datenpipelines und die Verbindung von Ingenieurwesen und Softwareentwicklung. Neben meiner beruflichen Tätigkeit arbeite ich regelmäßig an eigenen Programmier-, Mikrocontroller- und Analyseprojekten.",
+    "Ich bin Verkehrsingenieur mit Schwerpunkt auf der Erhebung, Analyse und Visualisierung von Verkehrsdaten. Besonders interessieren mich Geoinformatik, OpenStreetMap, automatisierte Datenpipelines und die Verbindung von Ingenieurwesen und Softwareentwicklung. Neben meiner beruflichen Tätigkeit arbeite ich regelmäßig an eigenen Programmier-, Mikrocontroller- und Analyseprojekten. Meine Stärken liegen in der praktischen Anwendung technischer Lösungen zur Bewältigung komplexer Herausforderungen im Verkehrs- und Geodatenbereich.",
 
   skills: [
-    "Python",
+    "Python (GeoPandas & NumPy)",
     "Geoinformatik (QGIS, OSM)",
     "Verkehrsdatenerhebung & -analyse",
-    "OpenStreetMap / Overpass API",
     "Datenvisualisierung",
-    "Git & GitHub",
     "Automatisierung & Scripting",
     "Grundlagen Webentwicklung",
   ],
