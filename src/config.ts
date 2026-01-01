@@ -66,14 +66,14 @@ export const siteConfig = {
 
   education: [
     {
-      school: "Verkehrsingenieurwesen mit Schwerpunkt Verkehrsplanung und Verkehrstechnik",
-      degree: "Technische Universität Dresden",
+      school: "Technische Universität Dresden",
+      degree: "Verkehrsingenieurwesen mit Schwerpunkt Verkehrsplanung und Verkehrstechnik",
       dateRange: "10/2013 - 10/2020",
       achievements: [
         
       ],
-    },{school: "Kaufmann für Speditions- und Logistikdienstleistung",
-      degree: "DB Schenker AG in Chemnitz Lichtenau",
+    },{school: "DB Schenker AG in Chemnitz Lichtenau",
+      degree: "Kaufmann für Speditions- und Logistikdienstleistung",
       dateRange: "08/2010 - 08/2013",
       achievements:[] }
   ],
