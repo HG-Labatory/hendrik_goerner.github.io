@@ -38,13 +38,13 @@ export const siteConfig = {
     //   link: "https://hg-labatory.github.io/hendrik_goerner.github.io/",
     //   skills: ["Astro", "GitHub Pages", "Webentwicklung"],
     // },
-    // {
-    //   name: "Mikrocontroller- & Sensorprojekte",
-    //   description:
-    //     "Verschiedene Projekte mit ESP32 und Raspberry Pi, u. a. Temperaturmessung, OLED-Displays, MQTT-Datenübertragung und Visualisierung.",
-    //   link: "https://github.com/hg-labatory",
-    //   skills: ["ESP32", "Python", "MQTT", "IoT"],
-    // },
+    {
+      name: "Mikrocontroller- & Sensorprojekte",
+      description:
+        "Verschiedene Projekte mit ESP32 und Raspberry Pi, u. a. Temperaturmessung, OLED-Displays, MQTT-Datenübertragung und Visualisierung.",
+      link: "https://github.com/HG-Labatory",
+      skills: ["ESP32","Raspberry Pi", "Python","C#", "MQTT", "IoT","3D-Druck"],
+    },
   ],
 
   experience: [
