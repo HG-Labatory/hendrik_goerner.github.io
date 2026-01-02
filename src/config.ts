@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Hendrik Görner",
-  title: "Verkehrsingenieur | Geoinformatik | Software & Automation |",
+  title: "Verkehrsingenieur | Geoinformatik | Software & Automation",
   description:
     "Persönliche Portfolio-Website von Hendrik Görner – Verkehrsingenieur mit Fokus auf Verkehrsdatenerhebung, Geodatenanalyse und Softwareentwicklung.",
   accentColor: "#1d4ed8",
