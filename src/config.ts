@@ -35,7 +35,7 @@ export const siteConfig = {
       name: "Trafficnews Dashboard",
       description:
         "Das System sammelt Verkehrsmeldungen aus verschiedenen Quellen per Scraper, normalisiert sie in ein einheitliches Format und speichert sie in einer PostgreSQL-Datenbank und in einem zentralen Traffic-Dashboard gebündelt dargestellt.",
-      link: "https://hg-labatory.github.io/TrafficDashboard/",
+      link: "https://github.com/HG-Labatory/TrafficDashboard?tab=readme-ov-file#trafficdashboard",
       skills: ["Python","PostgreSQL", "GitHub Pages", "Webentwicklung", "Webscraping"],
     },
     {
