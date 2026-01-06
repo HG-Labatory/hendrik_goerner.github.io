@@ -31,13 +31,13 @@ export const siteConfig = {
       link: "https://github.com/HG-Labatory/vicumpy#vicumpy",
       skills: ["Python", "OSM","OpenAI", "Overpass API", "Geodatenanalyse"],
     },
-    // {
-    //   name: "Persönliche Portfolio-Website",
-    //   description:
-    //     "Eigene Portfolio-Website auf Basis von Astro und GitHub Pages zur Darstellung von Projekten, technischem Know-how und beruflichem Werdegang.",
-    //   link: "https://hg-labatory.github.io/hendrik_goerner.github.io/",
-    //   skills: ["Astro", "GitHub Pages", "Webentwicklung"],
-    // },
+    {
+      name: "Trafficnews Dashboard",
+      description:
+        "Das System sammelt Verkehrsmeldungen aus verschiedenen Quellen per Scraper, normalisiert sie in ein einheitliches Format und speichert sie in einer PostgreSQL-Datenbank und in einem zentralen Traffic-Dashboard gebündelt dargestellt.",
+      link: "hg-labatory.github.io/TrafficDashboard/",
+      skills: ["Python","PostgreSQL", "GitHub Pages", "Webentwicklung", "Webscraping"],
+    },
     {
       name: "Mikrocontroller- & Sensorprojekte",
       description:
